@@ -16,7 +16,7 @@ Pet-проект по выявлению мошеннических транза
    - кодирование категориальных признаков.
 2. Определение бейзлайна:
    - Logistic Regression, Decision Tree, Random Forest, LightGBM, XGBoost.
-   - Метрика: ROC-AUC (из-за сильного дисбаланса таргета).
+   - Метрика: ROC-AUC (из-за сильного дисбаланса классов).
 3. Поиск гиперпараметров:
    - Optuna, RandomizedSearchCV.
    - Использование GPU и early stopping для ускорения.
